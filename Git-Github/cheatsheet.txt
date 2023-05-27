@@ -1,0 +1,18 @@
+PARA NUESTRO PROPIO REPOSITORIO
+
+git init --> Crear un repositorio local
+git config user.name "NOMBRE" --> Configura el nombre de usuario
+git config user.email "asd@asd.com" --> Configura el correo del usuario
+git add . --> Pasa los archivos desde el repositorio local al stage
+git commit -m "Detalles del commit" --> Hace el commit para luego poder pushear
+git remote add origin "link del repositorio" --> Vincula el repositorio local con el remoto
+git push origin main --> Pushea todos los archivos que se encontraban en el stage al repositorio remoto
+git status --> Chequea el estado de todos los archivos
+git branch -M "NOMBRE DE RAMA" --> Cambia el nombre de la rama en la que me encuentro
+git branch "NOMBRE DE RAMA" --> Crea una rama nueva
+git branch checkout "NOMBRE DE RAMA" --> Cambia de rama de trabajo
+git pull origin main --> Copia los archivos de la rama main de tu repositorio remoto al local
+
+COPIAR DE OTRO REPOSITORIO
+
+git clone "Dirección de repositorio" --> Clona un repositorio remoto a tu repositorio local
