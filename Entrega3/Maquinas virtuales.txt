@@ -1,0 +1,26 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?.
+
+Los lenguajes de programación están diseñados de manera específica para funcionar en determinados sistemas operativos.
+Cada sistema operativo tiene su forma única de manejar tareas como guardar archivos, mostrar cosas en la pantalla o conectarse a la red.
+Los lenguajes de programación dependen de ciertos componentes del sistema operativo, como bibliotecas y APIs, para acceder a estas funcionalidades.
+Si un lenguaje de programación no tiene una implementación específica para un sistema operativo determinado, no podrá interactuar correctamente con esas funciones y no podrá ejecutarse en ese sistema.
+
+¿Qué tipo de máquina virtual es virtualBox?
+
+VirtualBox es un software de virtualización de código abierto que proporciona una máquina virtual en la que se pueden ejecutar otros sistemas operativos.
+Especificamente, VirtualBox es una máquina virtual de tipo 2, también conocida como hipervisor de nivel de software.
+Una máquina virtual de tipo 2 se ejecuta dentro de un sistema operativo ya existente en el equipo físico, como Windows, macOS o Linux. 
+VirtualBox crea un entorno virtual en el que se pueden instalar y ejecutar otros sistemas operativos, como Windows, Linux, macOS u otros.
+Actúa como una capa de software que simula el hardware de una computadora completa, permitiendo que los sistemas operativos invitados se ejecuten como si estuvieran en una máquina física independiente.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Si tienes varias máquinas virtuales instaladas en un entorno de virtualización como VirtualBox, el hecho de que una máquina virtual se rompa generalmente no afectará a las demás máquinas virtuales.
+Esto se debe a que las máquinas virtuales están aisladas unas de otras y funcionan de manera independiente.
+Cada máquina virtual tiene su propio entorno virtualizado, que incluye su propio sistema operativo, aplicaciones y configuraciones.
+Estas máquinas virtuales se ejecutan como procesos separados en el sistema operativo anfitrión, y VirtualBox se encarga de gestionar los recursos y mantener el aislamiento entre ellas.
+
+
+
+
